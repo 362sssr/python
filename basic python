@@ -1,0 +1,38 @@
+#display
+print("hiiii");
+#automatic addition
+a=1;
+b=2;
+s=a+b;
+print(s);
+#manual addition
+c=input("no.1:");
+d=input("no.2:");
+s1=int(c)+int(d);
+print(s1);
+#float
+e=input("no.1:");
+f=input("no.2:");
+s2=float(e)+float(f);
+print(s2);
+#concatenation
+g=input("val1");
+h=input("val2");
+print(g+h);
+#separators
+print("hello","bhaiyaa",sep="!!!",end="\t\t\t");
+print("hru",end="?\n");
+#formatting
+i=int(input("v1:"));
+j=int(input("v2:"));
+s3=i+j;
+print("sum of {0} + {1} is {2}".format(i,j,s3));
+print("sum of {} + {} is {}".format(i,j,s3),end="\n");
+print('sum is %d' %(int(input("val1:"))+int(input("val2:"))));
+#datatype
+k=input("v1:");
+l=int(input("v2:"));
+m=1+2j;
+n=complex(input("v3:"));
+print(type(k),type(l),type(m),type(n),sep="\n");
+
