@@ -1,0 +1,53 @@
+#looping statement
+#for loop
+#printing no.s
+for i in range (0,10):
+    print(i)
+print("\n")
+#printing strings
+for i in "miraculous":
+    print(i)
+print("\n")
+#range
+i=range(1,5)
+print(list(i))
+
+i=range(1,10,2)
+print(list(i))
+
+#while loop
+#printing no.s
+i=0
+n=10
+while i<=n:
+    print(i)
+    i+=1
+print("\n")
+#printing even no.s
+i=0
+n=10
+while i<=n:
+    print(i)
+    i+=2
+print("\n")
+#printing odd no.s
+i=1
+n=10
+while i<=n:
+    print(i)
+    i+=2
+print("\n")
+
+#infinite loop
+n=int(input("enter no"))
+while True:
+        print(n+1)
+#menu prog infinite loop
+v=input("vowel")
+
+while True:
+    if v in "aeiou":
+        print( "vowel" )
+        break;
+    print("not vowel")
+
