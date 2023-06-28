@@ -1,0 +1,43 @@
+# class
+class Student:
+    m1,m2=98,90
+#create object
+s=Student()
+print(s.m1)
+print(s.m2)
+print("\n")
+#method
+class Student:
+    m1,m2=98,90
+    def cal(a):
+        
+        x=a.m1+a.m2
+        print(x)
+        avg=x/2
+        print(avg)
+        
+s=Student()
+print(s.m1)
+print(s.m2)
+s.cal()
+print("\n")
+#constructor
+class Sample:
+    n=0
+    n1=98
+    def __init__(self,n1):
+        Sample.n+=1
+        self.n1=n1
+        print(self.n1)
+        print(Sample.n)
+h=Sample(23)
+#constructor strings
+class Sample:
+
+    n1='sathya'
+    def __init__(self,n1):
+        
+        self.n1=n1
+        print(self.n1)
+        print(Sample.n1)
+h=Sample("miraculous")
